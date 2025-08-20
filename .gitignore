@@ -1,7 +1,7 @@
 # Ignore everything
 *
 !*.sh
-!*.bash
+!*.bat
 
 # Unignore the .gitignore file itself
 !.gitignore
