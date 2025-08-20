@@ -1,5 +1,6 @@
 # Ignore everything
 *
+!*.sh
 
 # Unignore the .gitignore file itself
 !.gitignore
