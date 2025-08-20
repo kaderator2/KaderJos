@@ -1,3 +1,3 @@
 @echo off
-git fetch
-git reset --hard
+git fetch origin
+git reset --hard origin
