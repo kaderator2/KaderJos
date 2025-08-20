@@ -1,0 +1,12 @@
+# Ignore everything
+*
+
+# Unignore the .gitignore file itself
+!.gitignore
+
+# Unignore specific directories and their contents
+!minecraft/text.txt
+!minecraft/mods/
+!minecraft/texturepacks/
+!minecraft/resourcepacks/
+!minecraft/config/fancymenu/
