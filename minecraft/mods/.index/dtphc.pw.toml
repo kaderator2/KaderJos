@@ -1,0 +1,16 @@
+filename = 'DynamicTreesPHC-1.12.2-2.0.6.jar'
+name = "Dynamic Trees - Pam's Harvestcraft"
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '627156579a7e64f1e5072531a1f0d88323c07b1c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3812463
+project-id = 307560

@@ -1,0 +1,16 @@
+filename = 'PTRLib-1.0.5.jar'
+name = 'PTRLib'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'f4e174c40f6d269e002efaa1cef843e9f1b779d018aadce045a73b32f78817eae6ad51aae346cdbc4e29dea65aaba088ddfcd053fcf11c795d8f24cf9370d0dd'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/tIKBCqVe/versions/1.0.5/PTRLib-1.0.5.jar'
+
+[update.modrinth]
+mod-id = 'tIKBCqVe'
+version = '8eTyklbx'

@@ -1,0 +1,16 @@
+filename = 'Nutrition-1.12.2-4.9.0.jar'
+name = 'Foods Nutrition'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '773001b36a1a028478d5b72568485317d55c191b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3574440
+project-id = 558773

@@ -9,10 +9,14 @@
 # Unignore specific directories and their contents
 !minecraft/
 !minecraft/text.txt
+
 !minecraft/mods/
-!minecraft/mods/*
+!minecraft/mods/**
+
 !minecraft/resourcepacks/
-!minecraft/resourcepacks/*
+!minecraft/resourcepacks/**
+!minecraft/resourcepacks/An
+
 !minecraft/config/
 !minecraft/config/fancymenu/
-!minecraft/config/fancymenu/*
+!minecraft/config/fancymenu/**

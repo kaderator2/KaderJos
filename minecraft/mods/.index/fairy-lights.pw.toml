@@ -1,0 +1,16 @@
+filename = 'fairylights-2.2.0-1.12.2.jar'
+name = 'Fairy Lights'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '580435ee63ddb132b7cd6c8b3e3fb216199510ca'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3068499
+project-id = 233342

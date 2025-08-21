@@ -1,0 +1,16 @@
+filename = 'dynamictreesTheTwilightForest-1.12.2-1.2.3.jar'
+name = 'Dynamic Trees - The Twilight Forest'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'e7ff6b08eda6d1860cf4355fe80e6a27f5d974fb'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3261436
+project-id = 391986

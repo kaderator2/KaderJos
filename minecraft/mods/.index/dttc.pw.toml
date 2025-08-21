@@ -1,0 +1,16 @@
+filename = 'DynamicTreesTC-1.12.2-1.4.2.jar'
+name = 'Dynamic Trees - Thaumcraft Compat'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'd87ea63dad1c44b575c18806ab0876dbda0c5ca4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3053187
+project-id = 292752

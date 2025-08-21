@@ -1,0 +1,201 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMainMenu
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = kjbgs
+  action = setbackgroundslideshow
+}
+
+customization {
+  keepaspectratio = true
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -49
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = setbuttonlabel
+  value = Join Server :D
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = sethoverlabel
+  label = gogogo!
+}
+
+customization {
+  identifier = %id=9764%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-centered
+  x = -103
+  action = movebutton
+  y = 0
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = mid-centered
+  x = 3
+  action = movebutton
+  y = 0
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = mid-centered
+  x = -49
+  action = movebutton
+  y = -23
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376346%
+  orientation = mid-centered
+  x = -75
+  action = movebutton
+  y = -23
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 439
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 79433044-d34d-4222-993d-8c63118cb1691755400330154
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 161
+  action = deep_customization_element:title_screen_branding
+  actionid = f040defe-f16f-40a5-944b-a54c123fc28e1755400330163
+  y = 428
+  height = 50
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 918
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 1b687bba-a2eb-4f9d-aef8-d868fbe1690a1755400330163
+  y = 460
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 676
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 56fa570e-19d8-4324-840d-dc9001cb65eb1755400330164
+  y = 220
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 436
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 335af856-f605-483c-86a1-260cc311a8711755400330164
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 3e786ead-bf3c-4992-9e18-df1bc5f8901c1755400330164
+  y = 0
+  height = 30
+}
+
+customization {
+  showname = true
+  orientation = mid-left
+  crouching = true
+  x = 441
+  slim = false
+  actionid = cb06695c-0bf6-4da4-b925-daaa61291ab31755457539929
+  action = addentity
+  y = 11
+  scale = 30
+  playername = %playername%
+  parrot = true
+}
+
+customization {
+  path = kjcraft.png
+  orientation = mid-centered
+  x = -214
+  width = 419
+  actionid = df4ff13b-e1d5-49b4-a0d2-e75d453676b61755400773156
+  action = addtexture
+  y = -113
+  height = 55
+}
+
+customization {
+  orientation = mid-centered
+  basecolor = #2fc90c
+  shadow = true
+  splashfilepath = text.txt
+  rotation = 20.0
+  scale = 1.0
+  refresh = true
+  bouncing = true
+  vanilla-like = false
+  x = 179
+  actionid = fa7eeae2-963a-4d15-8ddc-7c2145ffa2901755550037933
+  action = addsplash
+  y = -124
+}
+
